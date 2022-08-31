@@ -1,0 +1,42 @@
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-emojis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 76, 76);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.emoji-name {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.emoji-emoji {
+    font-size: 40px;
+}
+
+button {
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
